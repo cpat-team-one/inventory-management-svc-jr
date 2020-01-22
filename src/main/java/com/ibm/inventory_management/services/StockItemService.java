@@ -18,12 +18,17 @@ public class StockItemService implements StockItemApi {
                         .withName("Item 2")
                         .withStock(150)
                         .withPrice(100.0)
-                        .withManufacturer("InsigniaTest"),
+                        .withManufacturer("Toshiba"),
                 new StockItem("3")
                         .withName("Item 3")
                         .withStock(10)
                         .withPrice(1000.0)
-                        .withManufacturer("Panasonic")
+                        .withManufacturer("Panasonic"),
+                new StockItem("4")
+                        .withName("Item 4")
+                        .withStock(10)
+                        .withPrice(1000.0)
+                        .withManufacturer("Samsung")
         );
     }
 }
