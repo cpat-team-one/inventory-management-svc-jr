@@ -1,7 +1,6 @@
 package com.ibm.inventory_management.services;
 import static java.util.Arrays.asList;
 import java.util.List;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import com.ibm.inventory_management.models.StockItem;
 @Service
@@ -23,12 +22,7 @@ public class StockItemService implements StockItemApi {
                         .withName("Item 3")
                         .withStock(10)
                         .withPrice(1000.0)
-                        .withManufacturer("Panasonic"),
-                new StockItem("4")
-                        .withName("Item 4")
-                        .withStock(10)
-                        .withPrice(1000.0)
-                        .withManufacturer("Samsung")
+                        .withManufacturer("Panasonic")
         );
     }
 }
