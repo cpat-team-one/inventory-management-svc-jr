@@ -9,7 +9,7 @@ logLevel: "INFO"
 image:
   repository: replace
   tag: replace
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   port: 9080
 
 nameOverride: ""
